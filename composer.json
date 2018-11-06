@@ -1,0 +1,30 @@
+{
+  "name": "Aderemi/LaraRepo",
+  "version" : "1.0.0",
+  "description": "Laravel Repositories is a package for Laravel which is used to abstract the database layer. This makes applications much easier to maintain.",
+  "license": "MIT",
+  "homepage": "https://softroleum.com",
+  "keywords": ["laravel", "eloquent", "filtering", "database"],
+  "authors": [
+    {
+      "name": "Aderemi Dayo",
+      "email": "aderemi.dayo.o@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "illuminate/support": "^5.2",
+    "illuminate/database": "^5.2",
+    "illuminate/filesystem": "^5.2",
+    "illuminate/console": "^5.2",
+    "illuminate/mail" : "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaraRepo\\": "./"
+    }
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.3"
+  }
+}
